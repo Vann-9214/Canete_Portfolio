@@ -3,9 +3,7 @@ import React from "react";
 // Messages
 export default function Messages() {
   return (
-    <div className="flex flex-col items-center mt-[clamp(0px,17.86vh-142.86px,40px)]">
-      <div className="md:mt-[clamp(0px,calc(17.86vh_-_142.86px),40px)]" />
-
+    <div className="flex flex-col items-center mt-[clamp(0px,12.35vh-86.42px,40px)] md:mt-[clamp(0px,calc(12.35vh_-_86.42px),40px)]">
       <h1 className="text-[clamp(32px,4vw,56px)] md:text-[clamp(54px,4vw,68px)] text-center font-space font-bold text-[#2D3436] tracking-tight leading-tight">
         Konnichiwa! I’m Ivan
       </h1>

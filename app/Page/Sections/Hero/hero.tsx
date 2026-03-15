@@ -5,7 +5,7 @@ import Picture from "./picture";
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-[100dvh] w-full flex-col overflow-hidden px-5 pt-28 md:px-8">
+    <section className="relative flex min-h-[100dvh] w-full flex-col overflow-hidden px-5 pt-[clamp(88px,8vh+32px,112px)] md:px-8">
       {/* Main Content */}
       <div className="z-20 flex flex-1 flex-col w-full">
         <Messages />
